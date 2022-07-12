@@ -1,0 +1,44 @@
+.contacto {
+  width: 280px;
+  height: 70px;
+  bottom: 30px;
+  right: 30px;
+  display: flex;
+  position: relative;
+  position: fixed;
+  z-index: 100000;
+}
+
+.contactoequis {
+  width: 15px;
+  height: 15px;
+}
+
+.header {
+  top: 0px;
+  height: 60px;
+  width: auto;
+  background-color: var(--fondo);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+  position: relative;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 100000;
+}
+
+.logoinicial {
+  width: 130px;
+  height: 60px;
+}
+
+.logomenu {
+  width: 25px;
+  height: 25px;
+}
+
+.logoinicial, .logomenu {
+  margin: 0px 10px;
+}/*# sourceMappingURL=header.css.map */

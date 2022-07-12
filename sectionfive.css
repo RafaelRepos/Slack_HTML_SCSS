@@ -1,0 +1,52 @@
+.sectionfive {
+  display: flex;
+  justify-content: center;
+}
+
+.sectionfive__elementos {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 20px;
+  border-bottom: 2px solid rgb(174, 173, 173);
+}
+
+.logoinferior {
+  margin-left: 30px;
+  width: 60px;
+  height: 60px;
+}
+
+.listas {
+  list-style-type: none;
+  padding: 0px;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.item {
+  margin: 10px 0px;
+}
+
+.listasecundaria {
+  display: none;
+}
+
+@media all and (min-width: 768px) {
+  .listas {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .item {
+    width: 25%;
+    font-size: 13px;
+  }
+  .listasecundaria {
+    width: 100%;
+    flex-direction: column;
+    display: inline-flex;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 10px 0px;
+  }
+}/*# sourceMappingURL=sectionfive.css.map */

@@ -1,0 +1,66 @@
+.sectionfour {
+  padding: 0px;
+  margin: 0px;
+}
+
+.sectionfour__bienvenido {
+  background-color: var(--barrados);
+  border: none;
+  -webkit-clip-path: ellipse(75% 100% at center top);
+          clip-path: ellipse(75% 100% at center top);
+  padding: 20PX 20px 90PX 20PX;
+}
+
+.sectionfourtittle {
+  color: var(--fondoblanco);
+  font-weight: 700;
+  text-align: center;
+}
+
+.btnsectionfour {
+  width: 100%;
+  border-style: none;
+  color: var(--transbarra);
+  background-color: var(--fondoblanco);
+  height: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 5px;
+  margin: 0px;
+  margin: 15px 0px;
+}
+
+.btnsectionfour:hover {
+  transition: font-size 0.3s ease;
+  font-size: 15px;
+}
+
+.btnsectionfourt {
+  width: 100%;
+  border-style: none;
+  color: var(--fondoblanco);
+  background-color: var(--barrados);
+  height: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 3px solid var(--fondoblanco);
+  border-radius: 5px;
+  margin: 15px 0px;
+}
+
+.btnsectionfourt:hover {
+  background-color: var(--transbarra);
+  color: var(--fondo);
+  transition: font-size 0.3s ease;
+  font-size: 15px;
+}
+
+@media all and (min-width: 768px) {
+  .btnsectionfourpadre {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .btnsectionfour, .btnsectionfourt {
+    max-width: 40%;
+  }
+}/*# sourceMappingURL=sectionfour.css.map */

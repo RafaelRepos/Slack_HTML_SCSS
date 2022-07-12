@@ -1,0 +1,99 @@
+//____________________________SECTIONONE_________________________________________________
+.sectionone {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--fondo);
+}
+.sectionone__banner {
+    padding: 10px;
+    margin: 20px;
+}
+.titulo__banner {
+    width: 100%;
+}
+.hacheunobanner {
+    font-weight: 700;
+    font-size: 30px;    
+    margin: 20px 0px;
+}
+.btnbanner {
+    width: 100%;
+    border-style: none;
+    color: var(--fondoblanco);
+    background-color: #4a154b;
+    height: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+.btnbannerdos {
+    width: 100%;
+    border-style: none;
+    color: var(--fondoblanco);
+    background-color:#4285F4;
+    height: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+.btnbanner:hover {
+    background-color:var(--transbarra);
+    color: var(--fondo);
+    transition: font-size .3s ease;
+    font-size: 15px;
+}
+@media all and (min-width:  768px) {  //________query
+    .sectionone__banner{
+        height: auto;
+        display: flex;        
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    } 
+    .imgbanner , .titulo__banner {        
+        max-width: 50%;
+        align-items: center;
+     }
+     .titulo__banner {
+         margin-right: 10px;
+     }
+     .imgbanner {
+         margin-left: 10px;
+     }
+    
+}
+.imgbanner {
+    width: 100%;
+    margin: 18px 0px;   
+}
+.grupologos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px;
+}
+.grupologos__siete {
+    align-items: center;    
+    max-width: 25%;
+    height: auto;    
+    flex-wrap: wrap;
+    margin: 10px;
+}
+@media all and (min-width:  768px) {
+    .grupologos {
+        display: flex;
+        
+        justify-content: space-around;
+        align-items: center;
+    }  
+    .grupologos__siete {    
+        flex-direction: row;        
+        max-width: 10%;  
+        max-height: 50px;        
+      }
+}

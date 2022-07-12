@@ -1,0 +1,44 @@
+//elements
+/*
+@import '/scss/header' ;
+@import '/scss/sectionone' ;
+@import '/scss/sectiontwo' ;
+@import '/scss/sectionthree' ;
+@import '/scss/sectionfour' ;
+@import '/scss/sectionfive' ;
+@import '/scss/footer' ;
+*/
+@import 'header' ;
+@import 'sectionone.scss' ;
+@import 'sectiontwo' ;
+@import 'sectionthree' ;
+@import 'sectionfour' ;
+@import 'sectionfive' ;
+@import 'footer' ;
+
+:root {
+    --fondoarticulos: #400d40;
+    --barra: #1264a3;
+    --btn: #3390d8;
+    --barrados: #4a154b;
+    --transbarra:  #7c057c;
+    --texto: #000;
+    --fondo: #F6EFE8;    
+    --fondoblanco: #fff;
+}
+body {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+//___________________________________________
+
+
+
+
+
+
+
+
+
